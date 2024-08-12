@@ -11,7 +11,7 @@
                 <div class="p-6 text-gray-900">
                     <p class="text-lg">{{ __("Welcome back!") }}</p>
                     <p class="mt-4">{{ __("You're logged in!") }}</p>
-                    <a href="{{ route('product.index') }}" class="inline-block mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">Go to Products</a>
+                    <a href="{{ route('product.create') }}" class="inline-block mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">Go to Products</a>
                 </div>
             </div>
         </div>
